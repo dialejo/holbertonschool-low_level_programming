@@ -9,7 +9,7 @@
  * Return the len of the array
  */
 
-void int _strlen(char *s)
+void int_strlen(char *s)
 {
 int i;
 int z = 0;
