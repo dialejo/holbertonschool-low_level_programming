@@ -14,4 +14,5 @@ for (y = 0 ; s[y] != '\0' ; y++)
 z++;
 for (x = (z - 1) ; x >= 0 ; x--)
 _putchar(s[x]);
+_putchar('\n');
 }
