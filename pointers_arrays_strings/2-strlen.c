@@ -17,4 +17,4 @@ for (i = 0 ; s[i] != '\0' ; i++)
 {
 z++;
 }
-_putchar(z);
+return (z);
