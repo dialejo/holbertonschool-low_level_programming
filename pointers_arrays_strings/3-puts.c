@@ -1,11 +1,11 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _puts - print the array
  *
  * @str: string
  *
- * return: cero
  */
 
 void _puts(char *str)
