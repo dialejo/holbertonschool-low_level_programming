@@ -9,11 +9,7 @@
  * Return the len of the array
  */
 
-void int_strlen(char *s)
-{
-int i;
-int z = 0;
-for (i = 0 ; s[i] != '\0' ; i++)
-z++;
-_putchar(z);
-}
+int int_strlen(char *s);
+int len;
+len = strlen(s);
+_putchar(len);
