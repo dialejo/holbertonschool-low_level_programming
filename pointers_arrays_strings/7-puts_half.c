@@ -16,7 +16,7 @@ int len, x, y;
 len = strlen(str);
 
 if (len % 2 == 0)
-	for (x = len + 1 ; ststr[x] != '\0' ; x++)
+	for (x = len + 1 ; str[x] != '\0' ; x++)
 		_putchar(str[x]);
 else
 	for (y = len ; str[y] != '\0' ; y++)
