@@ -1,15 +1,18 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 
 /**
- * int _strlen - print the len of the array
+ * _strlen - print the len of the array
  *
- *@s : string
+ * @s: string
  *
- * Return the len of the array
+ * Return: the len of the array
  */
 
-int int_strlen(char *s);
+int _strlen(char *s)
+{
 int len;
 len = strlen(s);
-_putchar(len);
+return (len);
+}
