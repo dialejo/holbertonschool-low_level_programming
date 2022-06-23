@@ -18,8 +18,5 @@ t++;
 _putchar(s[i]);
 }
 for (x = t - 1 ; x >= 0 ; x--)
-{
 _putchar(s[x]);
-_putchar('\n');
-}
 }
