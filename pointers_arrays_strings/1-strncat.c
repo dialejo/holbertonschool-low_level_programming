@@ -2,13 +2,13 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * *_strcat - concatena dos strings
+ * *_strncat - concatena dos strings
  * @dest: string 1
  * @src: string 2
  * @n: count of bytes
  * Return: dest
  */
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 int i, x;
 for (i = 0 ; dest[i] != '\0' ; i++)
