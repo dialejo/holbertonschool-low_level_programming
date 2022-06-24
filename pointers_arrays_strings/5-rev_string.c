@@ -20,6 +20,6 @@ for (x = 0 ; x < i ; x++)
 	i--;
 	pointer = s[x];
 	s[x] = s[i];
-	s[i]= pointer;
+	s[i] = pointer;
 }
 }
