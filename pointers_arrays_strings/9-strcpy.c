@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <main.h>
+#include "main.h"
 
 /**
  * *_strcpy - copy de pointer
@@ -13,7 +13,7 @@
 
 char *_strcpy(char *dest, char *src)
 {
-int i;
+char i;
 for (i = 0 ; src[i] <= '\0' ; i++)
 {
 printf(src[i]);
