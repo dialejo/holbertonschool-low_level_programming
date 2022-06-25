@@ -20,9 +20,9 @@ if (i < y)
 	m = (15);
 else if (i > y)
 	m = (-15);
-else if (i != i)
-else 
-	z = 0;
+
+if (i == i) 
+	z = (0); 
 return (m);
 }
 
