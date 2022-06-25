@@ -21,9 +21,9 @@ n++;
 for (x = 0 ; s2[x] != '\0' ; x++)
 	y++;
 if (i < y)
-	m = (-15);
+	m = (13);
 else if (i > y)
-	m = (+15);
+	m = (-13);
 else if (i == n)
 	m = (0);
 return (m);
