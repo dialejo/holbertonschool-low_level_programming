@@ -11,11 +11,12 @@ int _strcmp(char *s1, char *s2)
 {
 int i = 0;
 int y = 0;
-int x, t, m, n;
+int n = 0;
+int x, t, m;
 for (t = 0 ; s1[t] != '\0' ; t++)
 {
 i++;
-i = n;
+n++;
 }
 for (x = 0 ; s2[x] != '\0' ; x++)
 	y++;
