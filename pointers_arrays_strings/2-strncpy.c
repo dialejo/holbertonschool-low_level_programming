@@ -14,7 +14,7 @@ int i;
 for (i = 0 ; dest[i] < n ; i++)
 {
 	dest[i] = src[i];
-if (dest[i] == n)
+if (dest[i] == '\0')
 	dest[i] = '\0';
 }
 return (dest);
