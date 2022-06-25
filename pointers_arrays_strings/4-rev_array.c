@@ -13,7 +13,7 @@ int x;
 int i = 0;
 while (i < n)
 	i++;
-for (x = i - 1; a[x] >= 0 ;  x--)
+for (x = (i - 1) ; a[x] >= 0 ;  x--)
 {
 }
 }
