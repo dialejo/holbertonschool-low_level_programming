@@ -24,8 +24,7 @@ if (i < y)
 	m = (-15);
 else if (i > y)
 	m = (+15);
-if (i == n)
+else if (i == n)
 	m = (0);
 return (m);
 }
-
