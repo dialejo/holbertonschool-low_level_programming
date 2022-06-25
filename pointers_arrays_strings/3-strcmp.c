@@ -21,11 +21,11 @@ n++;
 for (x = 0 ; s2[x] != '\0' ; x++)
 	y++;
 if (i < y)
-	m = (15);
-else if (i > y)
 	m = (-15);
-if (i == n) 
-	m = (0); 
+else if (i > y)
+	m = (+15);
+if (i == n)
+	m = (0);
 return (m);
 }
 
