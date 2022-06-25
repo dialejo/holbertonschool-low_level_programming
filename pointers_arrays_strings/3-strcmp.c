@@ -17,9 +17,11 @@ for (t = 0 ; s1[t] != '\0' ; t++)
 for (x = 0 ; s2[x] != '\0' ; x++)
 	y++;
 if (i < y)
-	m = (-15);
-else if (i > y)
 	m = (15);
+else if (i > y)
+	m = (-15);
+else if (i == i)
+	z = (0);
 return (m);
 }
 
