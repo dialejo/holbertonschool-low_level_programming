@@ -6,10 +6,10 @@
  * @s: string
  * Return: s
  */
-char *_putchar(char *s)
+int *_putchar(int s)
 {
 int i;
 for (i = 0 ; s[i] != '\0' ; i++)
 return (s);
-return ('\n');
+_putchar('\n');
 }
