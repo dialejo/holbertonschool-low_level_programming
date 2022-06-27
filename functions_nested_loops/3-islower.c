@@ -2,8 +2,8 @@
 
 /**
  * _islower - print if it's lower
- * @c = string
- *Return: 1 or 0
+ * @c:  string
+ * Return: 1 or 0
  */
 int _islower(int c)
 {
