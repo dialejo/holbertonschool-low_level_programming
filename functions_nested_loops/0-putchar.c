@@ -2,14 +2,18 @@
 #include <stdio.h>
 
 /**
- * *_putchar - print putchar and space
- * @s: string
- * Return: s
+ * main - function print putchar and space
+ *
+ * Return: 0
  */
-int *_putchar(int s)
+int main(void)
 {
+char s[] = "_putchar";
 int i;
 for (i = 0 ; s[i] != '\0' ; i++)
-return (s);
+{
+_putchar(s[i]);
+}
 _putchar('\n');
+return (0);
 }
