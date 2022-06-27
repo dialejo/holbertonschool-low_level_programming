@@ -9,7 +9,7 @@
 
 char *leet(char *s)
 {
-int i;
+int i, j;
 char cond[] = "aAeEoOtTlL";
 char swicth = "43071";
 for (i = 0 ; s[i] != '\0' ; i++)
