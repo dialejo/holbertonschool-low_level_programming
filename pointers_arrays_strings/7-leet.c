@@ -11,7 +11,7 @@ char *leet(char *s)
 {
 int i, j;
 char cond[] = "aAeEoOtTlL";
-char swicth = "43071";
+char swicth[] = "43071";
 for (i = 0 ; s[i] != '\0' ; i++)
 {
 for (j = 0; cond[j] != '\0'; j++)
